@@ -1,0 +1,220 @@
+nav {
+	width: 100%;
+	height: 120px;
+	background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/international2019/global/section_bg_sm.png);
+	text-align: center;
+	padding-right: 200px;
+}
+
+nav a {
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/579/636/55/dota-2-art-background-clean-wallpaper-preview.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+h2 {
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	font-size: 50px;
+	letter-spacing: 4px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer {
+	background-color: #000000;
+	width: 100%;
+	margin-top: 200px;
+	padding-top: 30px;
+	padding-bottom: 24px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.footer-logo {
+	height: 50px;
+	width: auto;
+	margin: 0px 20px;
+}
+
+/* FORM */
+
+form {
+	background-color: #d2ba86;
+	margin: 50px 400px 40px 400px;
+	border-style: dotted;
+	border-color: #0e0b14;
+}
+
+legend {
+	font-size: 35px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+label {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 25px;
+}
+
+input {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 25px;
+}
+
+select {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 25px;
+}
+
+textarea {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 25px;
+}
+
+.redesLinks2 {
+	list-style: none;
+}
+
+.redesLinks2 a {
+	text-decoration: none;
+	font-size: 40px;
+}
+
+/****************** VIDEOS Y TEXTO BATTLEPASS ********************/
+
+.bp_info p {
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	font-size: 25px;
+	padding: 0px px;
+	letter-spacing: 4px;
+}
+
+#new_map {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.terrenoT {
+	color: #c79123;
+	font-size: 25px;
+	padding-top: 32vw;
+	z-index: 1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.terrenoT2 {
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	z-index: 1;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+#wk_video {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.arcanaT {
+	color: #c79123;
+	font-size: 25px;
+	padding-top: 41vw;
+	z-index: 1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.arcanaT2 {
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	z-index: 1;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.wk_img {
+	position: absolute;
+	z-index: 1;
+	padding-left: 710px;
+	padding-top: 650px;
+}
+
+.container-fluid.qop_arcana {
+	height: 54vw;
+	min-height: 500px;
+}
+
+.qop_bg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: 100%;
+}
+
+.qop_img{
+	position: absolute;
+	z-index: 1;
+	padding-left: 550px;
+	padding-top: 650px;
+	
+}
+
+.qop_text1{
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	font-size: 25px;
+	padding-top: 45vw;
+	z-index: 1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.qop_text2{
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	z-index: 1;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 90px;
+}
+
+.invitedList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 15px;
+	padding-bottom: 100;
+}
+
+.invited {
+	color: #ffff;
+	text-shadow: 0px 0px 16px #c79123;
+	list-style: none;
+	font-size: 35px;
+	margin: 20px;
+}
+
+hr {
+	background-color: white;
+	width: 100%;
+}

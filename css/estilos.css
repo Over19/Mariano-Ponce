@@ -1,0 +1,192 @@
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #000000; }
+  #aegisVideo {
+    display: none; }
+  .tiLogo {
+    width: 400px;
+    padding-right: 50px; }
+  .prizeInfo {
+    display: flex;
+    flex-wrap: wrap; }
+  .animate__animated.animate__slideInLeft {
+    font-size: 2em;
+    margin-left: 10px; }
+  .animate__animated.animate__slideInRight {
+    font-size: 3em;
+    margin-left: 40px; }
+  .mainParrafo {
+    font-size: 1em; }
+  .imagenFondo {
+    display: none; }
+  footer {
+    font-size: 0.8em; }
+  .videos {
+    display: flex;
+    flex-wrap: wrap; }
+  iframe {
+    display: none; }
+  .tiTrailerI {
+    display: none; }
+  .nationalaVidI {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #000000; }
+  #a
+#aegisVideo {
+    width: 100%; }
+  .tiLogo {
+    width: 550px;
+    display: flex;
+    justify-content: center; }
+  .prizeInfo {
+    display: flex;
+    flex-wrap: wrap; }
+  .animate__animated.animate__slideInLeft {
+    font-size: 2em;
+    margin-left: 180px; }
+  .animate__animated.animate__slideInRight {
+    font-size: 3em;
+    margin-left: 210px; }
+  .mainParrafo {
+    font-size: 0.9em;
+    z-index: 1; }
+  footer {
+    font-size: 0.8em; }
+  .videos {
+    display: flexbox; } }
+
+nav {
+  width: 100%;
+  height: 120px;
+  background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/international2019/global/section_bg_sm.png);
+  text-align: center;
+  padding-right: 200px; }
+
+nav a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none; }
+
+h1 {
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  z-index: 1;
+  text-align: center;
+  font-size: 5rem; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+#aegisVideo {
+  width: 100%;
+  position: absolute;
+  z-index: -1; }
+
+.tiLogo {
+  position: absolute;
+  z-index: 1;
+  padding-left: 33%;
+  padding-top: 100px;
+  max-width: 100%; }
+
+.animate__animated.animate__slideInLeft {
+  text-align: center;
+  z-index: 1;
+  color: #c79123;
+  font-size: 2.5em;
+  padding-top: 47vw;
+  animation-duration: 5s;
+  -o-animation-delay: 1s; }
+
+.animate__animated.animate__slideInRight {
+  text-align: center;
+  z-index: 1;
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  font-size: 8em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation-duration: 5s;
+  -o-animation-delay: 1s; }
+
+.animate__animated.animate__fadeInUp {
+  animation-duration: 5s;
+  animation-delay: 0.5s; }
+
+.mainParrafo {
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  font-size: 1.5em;
+  padding: 0px 100px;
+  letter-spacing: 4px; }
+
+.hostingPlace {
+  text-align: center;
+  z-index: 1;
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.nationala {
+  text-align: center;
+  z-index: 1;
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.imagenFondo {
+  object-fit: cover;
+  z-index: -1;
+  position: absolute; }
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  margin-top: 200px;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+  margin: 0px 20px; }
+
+iframe {
+  width: 90%;
+  height: 720px; }
+
+.videos {
+  display: grid;
+  grid-template-areas: "video1 video2" "texto1 texto2";
+  z-index: 1;
+  margin-top: 150px; }
+
+.tiTrailer {
+  grid-area: video1; }
+
+.nationalaVideo {
+  grid-area: video2; }
+
+.tiTrailerI {
+  grid-area: texto1;
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  text-align: center;
+  font-size: 30px; }
+
+.nationalaVidI {
+  grid-area: texto2;
+  color: #ffff;
+  text-shadow: 0px 0px 16px #c79123;
+  text-align: center;
+  font-size: 30px; }
+
+.carousel {
+  justify-content: center; }

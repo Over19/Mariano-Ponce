@@ -1,0 +1,107 @@
+
+
+@media screen and (max-width: 360px){
+    body{
+        background-color: #000000;
+    }
+    #aegisVideo{
+        display: none;        
+    }
+    .tiLogo{
+        width: 400px;
+        padding-right: 50px;
+        
+    }
+    .prizeInfo{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .animate__animated.animate__slideInLeft{
+        font-size: 2em;
+        margin-left: 10px;
+    }
+    .animate__animated.animate__slideInRight{
+        font-size: 3em;
+        margin-left: 40px;
+    }
+
+    .mainParrafo{
+        font-size: 1em;
+    }
+
+    .imagenFondo{
+        display: none;
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+    
+iframe{
+    display: none;
+}
+.tiTrailerI{
+    display: none;
+}
+.nationalaVidI{
+    display: none;
+}
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: #000000;
+    }
+    #a
+    #aegisVideo{
+        width: 100%;
+    }
+    .tiLogo{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .prizeInfo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .animate__animated.animate__slideInLeft{
+        font-size: 2em;
+        margin-left: 180px;
+    }
+    .animate__animated.animate__slideInRight{
+        font-size: 3em;
+        margin-left: 210px;
+    }
+
+    .mainParrafo{
+        font-size: 0.9em;
+        z-index: 1;
+    }
+
+    .imagenFondo{
+        
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+
+    .videos{
+        display: flexbox;
+        
+        
+    }
+
+}
