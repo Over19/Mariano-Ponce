@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
+	<head>
+		<meta
+			name="description"
+			content="Pagina informativa del torneo e-sport de Dota 2 The International"
+		/>
+		<meta
+			name="keywords"
+			content="DOTA 2, DOTA, MOBA, ESPORTS, GAMING, VALVE"
+		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
@@ -14,133 +22,125 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
-        <link rel="stylesheet" href="../css/estilo2.css">
-    <title>Redes</title>
-</head>
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../Index.html">
-                <img
-                    src="../imagenes/dota2Logo.png"
-                    alt="dotaLogo"
-                    width="200"
-                    height="100"
-                    class="d-inline-block align-text-top"
-                />
-            </a>
-            <a href="historia.html">Campeones</a>
-            <a href="battlepass.html">Battle Pass</a>
-            <a href="equipos.html">Equipos</a>
-            <a href="redes.html">Redes</a>
-        </div>
-    </nav>
+		<link rel="stylesheet" href="../css/estilo2.css" />
+		<title>Redes</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../Index.html">
+					<img
+						src="../imagenes/dota2Logo.png"
+						alt="dotaLogo"
+						width="200"
+						height="100"
+						class="d-inline-block align-text-top"
+					/>
+				</a>
+				<a href="historia.html">Campeones</a>
+				<a href="battlepass.html">Battle Pass</a>
+				<a href="equipos.html">Equipos</a>
+				<a href="redes.html">Redes</a>
+			</div>
+		</nav>
 
-    <h2 class="redes">Redes</h2>
-			<ul class="redesLinks">
-				<li class="redesLinks2">
-					<a href="https://www.facebook.com/dota2/" target="_blank">Facebook</a>
-				</li>
-				<li class="redesLinks2">
-					<a href="https://twitter.com/DOTA2ti/" target="_blank">Twitter</a>
-				</li>
-				<li class="redesLinks2">
-					<a href="https://www.instagram.com/dota2/" target="_blank"
-						>Instagram</a
-					>
-				</li>
-				<li class="redesLinks2">
-					<a href="https://www.youtube.com/user/dota2" target="_blank"
-						>Youtube</a
-					>
-				</li>
-				<li class="redesLinks2">
-					<a href="https://www.twitch.tv/dota2ti" target="_blank">Twitch</a>
-				</li>
-			</ul>
+		<h2 class="redes">Redes</h2>
+		<ul class="redesLinks">
+			<li class="redesLinks2">
+				<a href="https://www.facebook.com/dota2/" target="_blank">Facebook</a>
+			</li>
+			<li class="redesLinks2">
+				<a href="https://twitter.com/DOTA2ti/" target="_blank">Twitter</a>
+			</li>
+			<li class="redesLinks2">
+				<a href="https://www.instagram.com/dota2/" target="_blank">Instagram</a>
+			</li>
+			<li class="redesLinks2">
+				<a href="https://www.youtube.com/user/dota2" target="_blank">Youtube</a>
+			</li>
+			<li class="redesLinks2">
+				<a href="https://www.twitch.tv/dota2ti" target="_blank">Twitch</a>
+			</li>
+		</ul>
 
+		<div class="container-fluid">
+			<form action="" method="POST">
+				<fieldset>
+					<legend>Suscribite a nuestra NewsLetter</legend>
+					<p>
+						<label for="nombre" id="nombre" name="nombre">Nombre: </label>
+						<input
+							type="text"
+							name="nombre"
+							id="nombre"
+							name="nombre"
+							required
+						/>
+					</p>
+					<p>
+						<label for="apellido" id="apellido" name="apellido"
+							>Apellido:
+						</label>
+						<input type="text" id="apellido" name="apellido" required />
+					</p>
+					<p>
+						<label for="email" id="email" name="email">Email: </label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="mariano@gmail.com"
+							required
+						/>
+					</p>
+					<h4>Sexo</h4>
+					<input type="radio" name="sexo" id="masculino" />
+					<label for="masculino">Masculino</label>
+					<input type="radio" name="sexo" id="femenino" />
+					<label for="femenino">Femenino</label>
+					<p>
+						<input type="checkbox" name="terminos" id="terminos" required />
+						<label for="terminos" name="terminos" id="terminos"
+							>Acepto recibir correos en mi email</label
+						>
+					</p>
+					<h4>¿Como te enteraste de este torneo de e-sports?</h4>
+					<select name="referencia" id="referencia">
+						<option value="instagram">Instagram</option>
+						<option value="youtube">Youtube</option>
+						<option value="twitch">Twitch</option>
+						<option value="twitter">Twitter</option>
+						<option value="dota2">Juego Dota 2</option>
+					</select>
+					<p>
+						<input type="submit" value="enviar datos" />
+						<input type="reset" value="limpiar datos" />
+					</p>
+					<p>
+						<textarea
+							name="comentarios"
+							id="comentarios"
+							cols="30"
+							rows="10"
+							placeholder="Algun comentario que quieras agregar"
+						></textarea>
+					</p>
+				</fieldset>
+			</form>
+		</div>
 
+		<footer>
+			<img src="../imagenes/dota2Logo.png" alt="LogoDota" class="footer-logo" />
+			Dota y el logotipo de Dota son marcas comerciales y/o marcas comerciales
+			registradas de Valve Corporation. 2021 Valve Corporation, todos los
+			derechos reservados.
+		</footer>
 
-
-
-<div class="container-fluid">
-    <form action="" method="POST">
-        <fieldset>
-            <legend>Suscribite a nuestra NewsLetter</legend>
-            <p>
-                <label for="nombre" id="nombre" name="nombre">Nombre: </label>
-                <input
-                    type="text"
-                    name="nombre"
-                    id="nombre"
-                    name="nombre"
-                    required
-                />
-            </p>
-            <p>
-                <label for="apellido" id="apellido" name="apellido"
-                    >Apellido:
-                </label>
-                <input type="text" id="apellido" name="apellido" required />
-            </p>
-            <p>
-                <label for="email" id="email" name="email">Email: </label>
-                <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="mariano@gmail.com"
-                    required
-                />
-            </p>
-            <h4>Sexo</h4>
-            <input type="radio" name="sexo" id="masculino" />
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="sexo" id="femenino" />
-            <label for="femenino">Femenino</label>
-            <p>
-                <input type="checkbox" name="terminos" id="terminos" required />
-                <label for="terminos" name="terminos" id="terminos"
-                    >Acepto recibir correos en mi email</label
-                >
-            </p>
-            <h4>¿Como te enteraste de este torneo de e-sports?</h4>
-            <select name="referencia" id="referencia">
-                <option value="instagram">Instagram</option>
-                <option value="youtube">Youtube</option>
-                <option value="twitch">Twitch</option>
-                <option value="twitter">Twitter</option>
-                <option value="dota2">Juego Dota 2</option>
-            </select>
-            <p>
-                <input type="submit" value="enviar datos" />
-                <input type="reset" value="limpiar datos" />
-            </p>
-            <p>
-                <textarea
-                    name="comentarios"
-                    id="comentarios"
-                    cols="30"
-                    rows="10"
-                    placeholder="Algun comentario que quieras agregar"
-                ></textarea>
-            </p>
-        </fieldset>
-    </form>
-</div>
-
-<footer>
-    <img src="../imagenes/dota2Logo.png" alt="LogoDota" class="footer-logo">
-    Dota y el logotipo de Dota son marcas comerciales y/o marcas comerciales registradas de Valve Corporation.
-2021 Valve Corporation, todos los derechos reservados.
-</footer>
-    
-
-    <script
+		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
 			crossorigin="anonymous"
 		></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
+	</body>
 </html>
