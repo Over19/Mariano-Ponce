@@ -12,6 +12,10 @@ nav a {
 	text-decoration: none;
 }
 
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
 body {
 	background-image: url(https://c4.wallpaperflare.com/wallpaper/579/636/55/dota-2-art-background-clean-wallpaper-preview.jpg);
 	width: 100%;
@@ -167,7 +171,9 @@ textarea {
 	height: 100%;
 	position: relative;
 	background-position: center;
-	background-size: 100%;
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .qop_img{
